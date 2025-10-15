@@ -3,10 +3,13 @@ const router = express.Router();
 
 
 //import controller
-const {createTodo} =require("../controllers/createTodo");
+// const {createTodo} =require("../controllers/createTodo");
+const {getTodo} =require("../controllers/getTodo");
+
 
 //define APi routes
-router.post("/createTodo",createTodo);
+// router.post("/createTodo",createTodo);
+router.get("/getTodos",getTodo);
 
 module.exports = router;
  
