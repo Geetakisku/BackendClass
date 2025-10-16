@@ -27,11 +27,3 @@ catch(err){
   }
 }
 
-// exports.gettodos =async(req,res) => {
-//     try {
-
-//     }
-//     catch (err){
-
-//     }
-// }
